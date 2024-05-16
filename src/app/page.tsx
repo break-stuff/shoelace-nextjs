@@ -1,10 +1,16 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import { SlButton } from "../../shoelace-wrappers/SlButton";
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
+
+        {/* Shoelace Button component */}
+        <SlButton variant="primary">This is a Shoelace button</SlButton>
+        {/*  */}
+        
         <p>
           Get started by editing&nbsp;
           <code className={styles.code}>src/app/page.tsx</code>

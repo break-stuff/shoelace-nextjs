@@ -1,3 +1,12 @@
+## Repo Docs
+
+This is a simple demonstration of using the [Custom Element React Wrappers](https://www.npmjs.com/package/custom-element-react-wrappers) in a Next.js project. The wrapper generator is configured and generated from the `scripts/make-wrappers.js` file and called after each installation using the `prepare` script in the `package.json` file.
+
+An important note is that in order to mkae this work, the wrapper generation configuration must have the `ssrSafe` property set to `true`. This will allow the components to register and execute when the client is ready.
+
+## Next.js Docs
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
